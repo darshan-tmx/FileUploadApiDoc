@@ -37,6 +37,12 @@
 
 ###### Query string
 
+###### 2 Differences
+
+###### - Name change of the query
+
+###### - authoriazation token will always change
+
 ```
 mutation uploadPdfWithTemporaryToken($symbols: [String]!, $title: String!, $file: String!, $externalUserId:String!) {
     uploadPdfWithTemporaryToken(symbols: $symbols, title: $title, file: $file,externalUserId: $externalUserId) {
